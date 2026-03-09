@@ -16,7 +16,7 @@ labels:
 app: todo-api
 spec:containers:
 - name: todo-api
-image: ghcr.io/dexidp/todo-api:latest
+image: docker.io/library/nginx:alpine
 ports:
 - containerPort: 3000
 name: http
